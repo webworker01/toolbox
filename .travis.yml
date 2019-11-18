@@ -7,6 +7,7 @@ matrix:
   - php: 7.2
   - php: 7.3
     env: deps=low UPDATE_TOOLS=true
+  - php: 7.4snapshot
   fast_finish: true
 cache:
   directories:
